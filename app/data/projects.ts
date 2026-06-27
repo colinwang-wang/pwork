@@ -38,7 +38,7 @@ export const projects: Project[] = [
       '运营数据报表与统计分析',
     ],
     techStack: ['Go', 'Gin', 'GORM', 'MySQL', 'Redis', 'React', 'Ant Design', '微信小程序', 'COS', 'Docker'],
-    duration: '3个月',
+    duration: '3天',
     highlights: [
       { title: '储值卡智能扣费', desc: '支持多卡余额自动轮转、本金优先于赠额扣减的复杂扣费逻辑' },
       { title: '三端协同', desc: 'Go后端+React管理台+微信小程序，统一API驱动三端业务' },
@@ -66,7 +66,7 @@ export const projects: Project[] = [
       '在线预约与咨询管理',
     ],
     techStack: ['Go', 'Gin', 'MySQL', 'Redis', 'AI大模型', '多语言i18n', 'Nginx'],
-    duration: '2个月',
+    duration: '3天',
     highlights: [
       { title: 'AI客服引擎', desc: '基于大模型的智能问答，支持中英文混合对话，覆盖就医全流程' },
       { title: '多语言架构', desc: '从UI到内容的完整国际化方案，一键切换中英文体验' },
@@ -94,7 +94,7 @@ export const projects: Project[] = [
       '微信支付与订单状态追踪',
     ],
     techStack: ['Go', 'Gin', 'MySQL', 'React', 'Ant Design', '微信小程序', 'AI推荐', '微信支付'],
-    duration: '2.5个月',
+    duration: '3天',
     highlights: [
       { title: 'AI菜单智推', desc: '根据人数、口味、场景智能生成菜品搭配方案，提升下单转化' },
       { title: '厨师智能调度', desc: '基于地理位置与档期自动匹配可用厨师，优化服务半径' },
@@ -122,7 +122,7 @@ export const projects: Project[] = [
       '在线咨询与表单收集',
     ],
     techStack: ['Go', 'Gin', 'MySQL', 'Next.js', 'React', 'TailwindCSS', 'Nginx'],
-    duration: '1.5个月',
+    duration: '3天',
     highlights: [
       { title: 'SSR + SEO优化', desc: 'Next.js服务端渲染配合结构化数据，搜索引擎收录效果优异' },
       { title: 'CMS内容管理', desc: '后台可视化编辑器，运营人员自主管理所有展示内容' },
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       '团队协作与任务管理',
     ],
     techStack: ['Next.js', 'React', 'FastAPI', 'Python', 'PostgreSQL', 'LangGraph', 'LangChain', 'TailwindCSS'],
-    duration: '3个月',
+    duration: '3天',
     highlights: [
       { title: 'LangGraph多Agent协作', desc: '编排搜索分析、内容生成、效果评估等多个AI Agent协同工作' },
       { title: 'GEO全新赛道', desc: '针对生成式AI搜索的SEO优化，抢占AI时代流量入口' },
@@ -180,7 +180,7 @@ export const projects: Project[] = [
       '消息推送与通知管理',
     ],
     techStack: ['微信小程序', 'Go', 'Gin', 'MySQL', 'Redis', '微信支付', 'WebSocket', 'IM'],
-    duration: '4个月',
+    duration: '3天',
     highlights: [
       { title: '三方撮合交易', desc: '机构-教师-家长三角色交易闭环，支持分账与自动结算' },
       { title: '实时IM通讯', desc: 'WebSocket驱动的即时消息系统，支持文字、图片、语音多种消息类型' },
@@ -208,7 +208,7 @@ export const projects: Project[] = [
       '学员社区与互动问答',
     ],
     techStack: ['Go', 'Gin', 'MySQL', 'React', 'TailwindCSS', 'Stripe', 'PayPal', 'WebRTC'],
-    duration: '2.5个月',
+    duration: '3天',
     highlights: [
       { title: '全球支付覆盖', desc: 'Stripe+PayPal双通道，支持信用卡、借记卡及本地化支付方式' },
       { title: '沉浸式学习体验', desc: '录播+直播+练习+社区四位一体，提升学习完成率与续费率' },
@@ -235,7 +235,7 @@ export const projects: Project[] = [
       '后台内容管理系统',
     ],
     techStack: ['Go', 'Gin', 'MySQL', 'React', 'Ant Design', 'Nginx', 'COS'],
-    duration: '2个月',
+    duration: '3天',
     highlights: [
       { title: '非遗数字保护', desc: '系统化收录藏戏艺术全貌，为文化传承提供数字化基础设施' },
       { title: '多媒体资料库', desc: '支持4K视频、高清图片、音频等多格式内容管理与流畅播放' },
