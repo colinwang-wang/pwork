@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { projects } from '../../data/projects'
+import basePath from '../../basePath'
 
 export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.slug }))
@@ -43,7 +44,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
       {project.images.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
           {project.images.map((img, i) => (
-            <img key={i} src={img} alt={`${project.title} 截图 ${i + 1}`}
+            <img key={i} src={`${basePath}${img}`} alt={`${project.title} 截图 ${i + 1}`}
               className="w-full rounded-xl border border-[#ebebeb] object-cover" />
           ))}
         </div>

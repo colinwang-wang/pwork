@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { projects } from '../data/projects'
+import basePath from '../basePath'
 
 const categories = [
   { id: 'all', label: '全部' },
@@ -31,7 +32,7 @@ export default function WorksPage() {
         {filtered.map((p) => (
           <Link key={p.slug} href={`/works/${p.slug}`} className="bg-white border border-[#ebebeb] rounded-xl p-6 hover:shadow-md transition">
             {p.images.length > 0 ? (
-              <img src={p.images[0]} alt={p.title} className="h-32 w-full rounded-lg object-cover mb-4" />
+              <img src={`${basePath}${p.images[0]}`} alt={p.title} className="h-32 w-full rounded-lg object-cover mb-4" />
             ) : (
               <div className="h-32 rounded-lg bg-gradient-to-br from-[#0070f3]/20 to-[#0070f3]/5 mb-4" />
             )}

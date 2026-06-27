@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import basePath from "../basePath";
 
 const links = [
   { label: "作品", href: "/works" },
@@ -51,7 +52,7 @@ export default function Header() {
               <h3 className="text-lg font-semibold text-[#171717]">添加微信咨询</h3>
               <button onClick={() => setShowContact(false)} className="text-[#888888] hover:text-[#171717]">✕</button>
             </div>
-            <img src="/wechat/contact.png" alt="微信名片" className="w-full rounded-lg" />
+            <img src={`${basePath}/wechat/contact.png`} alt="微信名片" className="w-full rounded-lg" />
             <p className="text-sm text-[#888888] text-center mt-3">扫码或长按识别，免费沟通需求</p>
           </div>
         </div>
