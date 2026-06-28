@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "works": "Works",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "15 Years Full-Stack, Ship in 7 Days",
+    "subtitle": "Digital solutions for SMEs | Mini Programs · Admin Panels · Websites · AI Apps"
+  },
+  "stats": {
+    "projects": "Projects",
+    "industries": "Industries",
+    "experience": "Experience"
+  },
+  "sections": {
+    "featuredProjects": "Featured Projects",
+    "viewAll": "View All Projects →",
+    "whyMe": "Why Choose Me",
+    "process": "Development Process",
+    "cta": {
+      "title": "Have an Idea? Let's Talk",
+      "desc": "Whether it's a mini program, admin panel, or AI application — let's discuss",
+      "button": "Get in Touch"
+    }
+  },
+  "capabilities": {
+    "experienced": { "title": "Experienced", "desc": "15 years of development experience across multiple industries, quick to understand and deliver" },
+    "fullstack": { "title": "Full-Stack Delivery", "desc": "Frontend + Backend + Mini Program + Deployment — all handled by one person, zero communication loss" },
+    "costEffective": { "title": "Cost Effective", "desc": "Independent developer model with no team overhead — same quality at a better price" }
+  },
+  "steps": ["Requirements", "Prototype", "Development", "Launch"],
+  "works": {
+    "title": "All Projects",
+    "filterAll": "All"
+  },
+  "services": {
+    "title": "Services & Pricing",
+    "subtitle": "Transparent pricing, choose what fits",
+    "extras": "Add-on Services",
+    "faq": "FAQ"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Independent full-stack developer with 15 years of experience. Focused on digital transformation for SMEs, skilled at integrating AI into real business scenarios. End-to-end delivery from requirements to deployment, with 32+ commercial projects across 8+ industries.",
+    "techStack": "Tech Stack",
+    "workflow": "How I Work",
+    "industries": "Industry Experience"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

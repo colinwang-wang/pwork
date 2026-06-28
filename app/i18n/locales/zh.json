@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "works": "作品",
+    "services": "服务",
+    "about": "关于",
+    "contact": "免费咨询"
+  },
+  "hero": {
+    "title": "15年全栈经验，7天把想法变成产品",
+    "subtitle": "专注中小企业数字化 | 微信小程序 · 管理后台 · 企业官网 · AI应用"
+  },
+  "stats": {
+    "projects": "项目",
+    "industries": "行业",
+    "experience": "开发经验"
+  },
+  "sections": {
+    "featuredProjects": "精选项目",
+    "viewAll": "查看全部项目 →",
+    "whyMe": "为什么选择我",
+    "process": "开发流程",
+    "cta": {
+      "title": "有想法？聊聊看",
+      "desc": "无论是微信小程序、管理后台还是AI应用，都可以聊聊",
+      "button": "免费咨询"
+    }
+  },
+  "capabilities": {
+    "experienced": { "title": "经验丰富", "desc": "15年开发经验，深谙各行业业务逻辑，快速理解需求并落地" },
+    "fullstack": { "title": "全栈交付", "desc": "前后端+小程序+部署一人搞定，沟通零损耗，交付更高效" },
+    "costEffective": { "title": "性价比高", "desc": "独立开发者模式，无团队冗余成本，同等质量价格更优" }
+  },
+  "steps": ["需求沟通", "原型确认", "开发测试", "部署上线"],
+  "works": {
+    "title": "全部作品",
+    "filterAll": "全部"
+  },
+  "services": {
+    "title": "服务与定价",
+    "subtitle": "透明定价，按需选择",
+    "extras": "附加服务",
+    "faq": "常见问题"
+  },
+  "about": {
+    "title": "关于我",
+    "intro": "独立全栈开发者，15年开发经验。专注中小企业数字化，擅长将AI能力融入实际业务场景。从需求分析到上线部署全流程独立交付，累计完成32+商业项目，覆盖教育、医疗、电商、企业服务等8+行业。",
+    "techStack": "技术栈全景",
+    "workflow": "工作方式",
+    "industries": "行业经验"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
