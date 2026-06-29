@@ -26,6 +26,7 @@
     }
   },
   "capabilities": {
+    "techTeam": { "title": "Direct Tech Team", "desc": "No middlemen — licensed software company, every line of code written by us" },
     "experienced": { "title": "Experienced", "desc": "15 years of development experience across multiple industries, quick to understand and deliver" },
     "fullstack": { "title": "Full-Stack Delivery", "desc": "Frontend + Backend + Mini Program + Deployment — all handled by one person, zero communication loss" },
     "costEffective": { "title": "Cost Effective", "desc": "Independent developer model with no team overhead — same quality at a better price" }
