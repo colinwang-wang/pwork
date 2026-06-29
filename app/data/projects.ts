@@ -196,7 +196,7 @@ export const projects: Project[] = [
     tags: ['Go', 'React', 'Stripe', 'PayPal'],
     status: '已上线',
     featured: false,
-    images: ['/projects/mandarin-lab/01.png', '/projects/mandarin-lab/02.png', '/projects/mandarin-lab/03.png'],
+    images: ['/projects/mandarin-lab/01.png', '/projects/mandarin-lab/02.png'],
     background:
       '面向海外华人及中文学习者的在线教育平台，提供系统化中文课程、直播互动教学与学习社区。平台集成Stripe与PayPal双支付通道，覆盖全球主流付费方式。课程内容分级设计，从拼音启蒙到HSK备考，支持视频录播与直播双模式，满足不同学习节奏。',
     features: [
@@ -223,7 +223,7 @@ export const projects: Project[] = [
     tags: ['Go', 'React', 'Ant Design', 'Nginx'],
     status: '已上线',
     featured: false,
-    images: ['/projects/xzculture/01.png', '/projects/xzculture/02.png', '/projects/xzculture/03.png'],
+    images: ['/projects/xzculture/01.png', '/projects/xzculture/02.png'],
     background:
       '为四川甘孜巴塘县藏戏非物质文化遗产打造的数字博物馆，通过数字化手段保护和传播藏戏艺术。平台收录藏戏剧目、表演艺人、服饰道具、历史文献等多维度内容，支持音视频多媒体展示。面向公众提供在线参观体验，面向研究者提供文献检索与资料下载。',
     features: [
@@ -239,6 +239,60 @@ export const projects: Project[] = [
     highlights: [
       { title: '非遗数字保护', desc: '系统化收录藏戏艺术全貌，为文化传承提供数字化基础设施' },
       { title: '多媒体资料库', desc: '支持4K视频、高清图片、音频等多格式内容管理与流畅播放' },
+    ],
+  },
+  {
+    slug: 'qiyang',
+    title: '启阳电子-B2B产品展示站',
+    subtitle: '电子元器件B2B英文产品展示与询盘平台',
+    category: 'corporate',
+    categoryLabel: '企业官网',
+    tags: ['Vue', 'Astro', '多语言', 'SEO'],
+    status: '已上线',
+    featured: false,
+    images: ['/projects/qiyang/01.png', '/projects/qiyang/02.png'],
+    background:
+      '为电子元器件制造商打造的B2B英文产品展示站，面向海外采购商提供产品目录浏览、规格参数查询、在线询盘等功能。网站针对Google SEO深度优化，支持产品分类筛选与关键词搜索，帮助企业获取海外询盘线索。',
+    features: [
+      '产品目录与分类展示',
+      '产品规格参数详情页',
+      '在线询盘表单',
+      '响应式多设备适配',
+      'Google SEO优化',
+      '后台产品管理',
+    ],
+    techStack: ['Vue', 'Astro', 'TailwindCSS', 'Nginx', 'SEO'],
+    duration: '2天',
+    highlights: [
+      { title: 'SEO友好架构', desc: '静态站点生成+结构化数据，Google收录效果优异' },
+      { title: 'B2B询盘转化', desc: '产品页内嵌询盘表单，缩短采购商决策路径' },
+    ],
+  },
+  {
+    slug: 'zioran',
+    title: '知猿课堂-网课资源平台',
+    subtitle: '优质网课资源付费下载与学习平台',
+    category: 'education',
+    categoryLabel: '教育',
+    tags: ['Python', 'FastAPI', 'Vue', '支付'],
+    status: '已上线',
+    featured: false,
+    images: ['/projects/zioran/01.png', '/projects/zioran/02.png'],
+    background:
+      '面向自学人群的网课资源付费下载平台，提供AIGC、编程、设计等方向的精选课程资源。平台采用金币+VIP双重付费体系，支持微信支付充值，用户可按需购买单课程或开通VIP畅享全站资源。',
+    features: [
+      '课程资源分类与搜索',
+      '金币充值与VIP会员体系',
+      '微信支付集成',
+      '课程详情与评价系统',
+      '用户学习记录追踪',
+      '后台内容与订单管理',
+    ],
+    techStack: ['Python', 'FastAPI', 'Vue', 'MySQL', 'Redis', '微信支付'],
+    duration: '3天',
+    highlights: [
+      { title: '双重付费体系', desc: '金币按课购买+VIP包月/年，灵活满足不同用户付费习惯' },
+      { title: '内容分发优化', desc: '课程资源CDN加速，大文件下载稳定流畅' },
     ],
   },
 ]
