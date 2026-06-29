@@ -54,12 +54,14 @@ const techStacks = ['PHP', 'Java', 'Python', 'Go', 'UniApp', 'Vue', 'React', 'Ne
 const advantages = {
   zh: [
     { icon: '👨‍💻', title: '纯技术团队', desc: '非中介非外包转包，每一行代码都由我们自己完成' },
+    { icon: '🏢', title: '正规机构', desc: '专业软件开发机构，持有营业执照，合作正规有保障' },
     { icon: '📋', title: '需求沟通细致', desc: '深入理解业务场景，确保开发方向与预期一致' },
     { icon: '📦', title: '源码完整交付', desc: '项目源码100%交付，不绑定不依赖，自主可控' },
     { icon: '🛡️', title: '售后有保障', desc: '免费维护期+长期技术支持，上线后持续跟进' },
   ],
   en: [
     { icon: '👨‍💻', title: 'Direct Tech Team', desc: 'No middlemen — every line of code written by us' },
+    { icon: '🏢', title: 'Licensed Company', desc: 'Registered software firm with business license' },
     { icon: '📋', title: 'Thorough Communication', desc: 'Deep understanding of your business before coding' },
     { icon: '📦', title: 'Full Source Delivery', desc: '100% source code handover, no lock-in' },
     { icon: '🛡️', title: 'After-sales Support', desc: 'Free maintenance period + long-term tech support' },
@@ -176,7 +178,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
         <h2 className="text-2xl font-semibold tracking-tight text-[#171717] mb-8 text-center">
           {lang === 'zh' ? '为什么选择我们' : 'Why Choose Us'}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {advantages[lang].map((adv) => (
             <div key={adv.title} className="text-center p-5 bg-white border border-[#ebebeb] rounded-xl">
               <div className="text-3xl mb-3">{adv.icon}</div>
